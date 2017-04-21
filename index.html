@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="plugin/styles/monokai-sublime.css">
+    <title>黄俐的个人主页</title>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <h2></h2>
+        <h1>黄 俐</h1>
+        <h2></h2>
+    </div>
+</header>
+
+<div class="container">
+    <section class="main_content">
+        <div>
+            <pre>
+<code class="json">{
+    "personalInformation": {
+        "sex": "男",
+        "age": "22",
+        "nativePlace": "重庆市开州区",
+        "university": "北京建筑大学",
+        "majors": "地理信息科学"
+    },
+    "contact": {
+        "phone": "15311444860",
+        "email": "849151701@qq.com"
+    },
+    "blog": "https://my.oschina.net/huanglii/blog"
+}</code>
+            </pre>
+        </div>
+        
+        <div>
+            <pre>
+<code class="cs">public class myProject
+{
+    public string projectName { get; set; }
+    public string timePeriods { get; set; }
+    public string description { get; set; }
+}
+
+static void Main(string[] args)
+{
+    myProject p1 = new myProject();
+    p1.projectName = "OpenStreetMap数据质量评价分析";
+    p1.timePeriods = "2017.03, 2017.06";
+    P1.description = "通过编程实现OSM历史数据的提取与存储,基于版本相似度对其最新版本进行评价分析。";
+
+    myProject p2 = new myProject();
+    p2.projectName = "智慧管网信息系统";
+    p2.timePeriods = "2014.10, 2015.10";
+    p2.description = "使用C#+ArcEngine实现地下管网的三维可视化、查询、编辑、应急指挥等功能。";
+}</code>
+            </pre>
+        </div>
+
+        <div>
+            <pre>
+<code class="javascript">function Honor(competition, prize, time){
+     this.competition = competition
+     this.prize = prize
+     this.time = time
+}
+
+var h1 = new Honor('天宇杯第四届全国高校大学生测绘技能大赛', '团体特等奖', new Date('2016-08-01'))
+var h2 = new Honor('SuperMap杯第十三届全国高校GIS大赛', '制图组二等奖',  new Date('2015-10-20'))</code>
+            </pre>
+        </div>
+    </section>
+
+</div>
+
+<script src="plugin/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>
